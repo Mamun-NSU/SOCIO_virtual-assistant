@@ -5,15 +5,22 @@ listener = sr.Recognizer()
 socio = pyttsx3.init()
 voices = socio.getProperty('voices')
 socio.setProperty('voices', voices[1].id)
-socio.say('How can i help you')
-socio.runAndWait()
 
-try:
-    with sr.Microphone() as source:
-        print('listening...')
-        voice = listener.listen(source)
-        command = listener.recognize_google(voice)
-        print(command)
+def talk(text):
+    socio.say(text)
+    socio.runAndWait()
 
-except:
-    pass
+def take_command():
+    try:
+        with sr.Microphone() as source:
+            print('listening...')
+            voice = listener.listen(source)
+            command = listener.recognize_google(voice)
+            print(command)
+
+    except:
+        pass
+    return command
+
+def run_socio():
+    command = take_command()
