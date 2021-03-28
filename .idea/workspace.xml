@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1779dfee-0ff3-4a90-9b5f-38a8b697aa39" name="Default Changelist" comment="SOCIO">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +79,7 @@
       <workItem from="1614272717633" duration="1464000" />
       <workItem from="1614792683975" duration="746000" />
       <workItem from="1614878555948" duration="328000" />
+      <workItem from="1616949110615" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="SOCIO">
       <created>1614186193726</created>
