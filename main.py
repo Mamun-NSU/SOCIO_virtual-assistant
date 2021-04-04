@@ -18,7 +18,7 @@ def take_command():
             voice = listener.listen(source)
             command = listener.recognize_google(voice)
             print(command)
-            
+
 
 
 
